@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@media (min-width: 1550px){
+    .site1 img, .site2 img, .site3 img, .site4 img {margin-left: 10%;}
+    .site1_desc, .site2_desc, .site3_desc, .site4_desc {margin-right: 20%;}
+}
+
+@media (max-width: 1260px){
+    .site1 img, .site2 img, .site3 img, .site4 img {margin-left: -10px;}
+    .site1_desc, .site2_desc, .site3_desc, .site4_desc {margin-right: -10px;}
+}
+
+@media (max-width: 1023px){
+    header h1 {margin-left: 30px;}
+
+    .gnb_list_w {display: none;}
+
+    .login_w {width: 20%;}
+    .log_target {padding-left: 0; justify-content: center;}
+    .log_target_in {padding-right: 15px;}
+
+    .total_menu_w {display: block;}
+    .btn_total {padding-left: 0;}
+    .btn_total_in {display: none;}
+
+
+    /***** fullpage #s1 *****/
+    .main_w {margin-top: -120px;}
+    .main_img1 {width: 250px; height: 250px; left: -125px;}
+    .main_img2 {width: 250px; height: 250px; right: -125px;}
+
+    #s1 h2 {font-size: 18px;}
+
+    
+    /***** fullpage #s2 *****/
+    .s2_w h2 {padding: 10px 0 20px; font-size: 30px;}
+    .s2_w h2 span {bottom: 25px;}
+
+    .s2_main_img {position: static; width: 400px; margin: auto;}
+    .s2_main_img1 {background: url('../img/me1.jpg') no-repeat center 90%; background-size: cover;  
+        width: 400px; height: 300px;}
+
+    .desc {position: static; background: #fff; padding: 1vw; display: table; margin-top: 20px;}
+    .desc > div {padding-bottom: 0; display: table-cell; padding-right: 15px;}
+    .desc > div:nth-of-type(3) {padding-right: 0;}
+    .mobile {display: none;}
+    .desc h3 {font-size: 20px;}
+    .desc h3::before {width: 6px; height: 18px; margin-right: 15px;}
+    .desc > div p {font-size: 14px; line-height: 20px;}
+    .career p {letter-spacing: -0.5px;}
+
+
+    /***** fullpage #s3 *****/
+    .s3_w h2 {padding: 50px 0 10px; font-size: 30px;}
+    .s3_w h2 span {bottom: 15px;}
+
+    .skills_item {display: table; margin: auto;}
+    .skills_item li {display: table-cell; padding-right: 30px;}
+    .skills_item li p {text-align: center;}
+
+    /***** fullpage #s4 *****/
+    .s4_w h2 {padding: 50px 0 10px; font-size: 30px; margin-bottom: 0;}
+    .s4_w h2 span {bottom: 15px;}
+
+    .site1 {margin-top: 30px; text-align: center;}
+    .site2, .site3, .site4 {margin-top: 30px; text-align: center;}
+    .site1 img, .site2 img, .site3 img, .site4 img {margin-top: 0; margin-left: 0;}
+    .site1_desc, .site2_desc, .site3_desc, .site4_desc {float: none; margin-right: 0;}
+
+    .s4_w h3 {font-size: 34px; margin-bottom: 30px;}
+    .s4_w p i {font-size: 25px; margin-right: 20px; color: #ebe2dd;}
+    .s4_w p:nth-of-type(2) i {font-size: 30px;}
+    .s4_w p {font-size: 15px; margin-bottom: 10px; }
+
+
+    /***** fullpage #s5 *****/
+    .s5_w h2 {padding: 50px 0 10px; font-size: 30px;}
+    .s5_w h2 span {bottom: 15px;}
+
+    
+    .s5_w h4 {font-size: 20px;}
+}
+
+@media (max-width: 900px){
+    .skills_item {display: block; margin: auto;}
+    .skills_item li {display: block; padding-right: 0; position: absolute;}
+
+    .html {top: 30%; left: 30%;}
+    .css {top: 30%; left: 54%;}
+    .java {bottom: 9%; left: 17%;}
+    .boot {bottom: 14%; left: 42%;}
+    .photo {bottom: 14%; left: 67%;}
+
+    .item {margin-top: 30px; font-size: 15px; font-weight: bold;}
+}
+
+@media (max-width: 600px){
+    .desc {display: block;}
+    .desc > div {padding-bottom: 20px; display: block; padding-right: 0;}
+    .career p {letter-spacing: 0px;}
+
+    .skills_item {display: block; margin: auto;}
+    .skills_item li {display: block; padding-right: 0; position: absolute;}
+
+    .html {top: 30%; left: 25%;}
+    .css {top: 30%; left: 50%;}
+    .java {bottom: 9%; left: 12%;}
+    .boot {bottom: 14%; left: 37%;}
+    .photo {bottom: 14%; left: 62%;}
+
+    .item {margin-top: 30px; font-size: 15px; font-weight: bold;}
+}
